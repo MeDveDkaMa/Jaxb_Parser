@@ -24,7 +24,7 @@
                 </executions>
                 <configuration>
                     <sources>
-                        <source>src/main/resources/simple.xsd</source>
+                        <source>src/main/resources/university.xsd</source>
                     </sources>
                 </configuration>
             </plugin>
