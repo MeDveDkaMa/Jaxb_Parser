@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><university city="Rybinsk" position="Rector"><address>Rybinsk</address><age>45</age><firstName>Alexander</firstName><id>0</id><lastName>biruilev</lastName></university>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sas:University xmlns:sas="http://sasha.rsatu.ru">
+    <sas:administrations>
+        <sas:administration>
+            <sas:Address>
+                <sas:City>Yaroslavl</sas:City>
+                <sas:position>Decan</sas:position>
+            </sas:Address>
+            <sas:ContactNo>+9321234212</sas:ContactNo>
+            <sas:Department>All</sas:Department>
+            <sas:Email>rector@rsatu.ru</sas:Email>
+            <sas:Faculty>All</sas:Faculty>
+            <sas:FirstName>Bogdan</sas:FirstName>
+            <sas:id>3</sas:id>
+            <sas:LastName>Petrenko</sas:LastName>
+        </sas:administration>
+    </sas:administrations>
+    <sas:students>
+        <sas:student>
+            <sas:Education>
+                <sas:Assessments>4.3</sas:Assessments>
+                <sas:Department>VS</sas:Department>
+                <sas:Faculty>FREI</sas:Faculty>
+                <sas:Group>VS-19</sas:Group>
+            </sas:Education>
+            <sas:ContactNo>+999123122</sas:ContactNo>
+            <sas:Email>test21@rambler.com</sas:Email>
+            <sas:Firstname>Liza</sas:Firstname>
+            <sas:id>8</sas:id>
+            <sas:Job>Unemployed</sas:Job>
+            <sas:Lastname>Berezinav</sas:Lastname>
+        </sas:student>
+    </sas:students>
+</sas:University>
