@@ -14,7 +14,7 @@ public class University {
 
     @Override
     public String toString() {
-        return (administrations + "\n" + students);
+        return (administrations + "\n\n" + students);
     };
 
 }

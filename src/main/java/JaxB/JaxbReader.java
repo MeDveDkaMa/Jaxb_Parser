@@ -13,16 +13,13 @@ public class JaxbReader {
         Unmarshaller unmarshaller = context.createUnmarshaller();
         File file = new File("./src/main/resources/university.xml");
         University university = (University) unmarshaller.unmarshal(file);
+        System.out.println(university + "\n\n\n");
 
 
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
         marshaller.marshal(university, System.out);
         marshaller.marshal(university, new File("./src/main/resources/universityTest.xml"));
-
-
-
-
 
     }
 }

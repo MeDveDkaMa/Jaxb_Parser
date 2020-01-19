@@ -14,6 +14,19 @@
             <sas:id>3</sas:id>
             <sas:LastName>Petrenko</sas:LastName>
         </sas:administration>
+        <sas:administration>
+            <sas:Address>
+                <sas:City>moscow</sas:City>
+                <sas:position>rector</sas:position>
+            </sas:Address>
+            <sas:ContactNo>+1423132132</sas:ContactNo>
+            <sas:Department>not all</sas:Department>
+            <sas:Email>nerector@rsatu.ru</sas:Email>
+            <sas:Faculty>no faculty</sas:Faculty>
+            <sas:FirstName>Anastasya</sas:FirstName>
+            <sas:id>4</sas:id>
+            <sas:LastName>Testovna</sas:LastName>
+        </sas:administration>
     </sas:administrations>
     <sas:students>
         <sas:student>
@@ -29,6 +42,20 @@
             <sas:id>8</sas:id>
             <sas:Job>Unemployed</sas:Job>
             <sas:Lastname>Berezinav</sas:Lastname>
+        </sas:student>
+        <sas:student>
+            <sas:Education>
+                <sas:Assessments>5.0</sas:Assessments>
+                <sas:Department>VS</sas:Department>
+                <sas:Faculty>MPOEVS</sas:Faculty>
+                <sas:Group>VS-18</sas:Group>
+            </sas:Education>
+            <sas:ContactNo>9999999999</sas:ContactNo>
+            <sas:Email>HEADSA@google.com</sas:Email>
+            <sas:Firstname>Evgeny</sas:Firstname>
+            <sas:id>-108155912</sas:id>
+            <sas:Job>Employed</sas:Job>
+            <sas:Lastname>Molodcov</sas:Lastname>
         </sas:student>
     </sas:students>
 </sas:University>

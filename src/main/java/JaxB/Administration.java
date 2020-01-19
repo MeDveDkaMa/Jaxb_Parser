@@ -79,8 +79,7 @@ import javax.xml.bind.annotation.XmlType;
 
         @Override
         public String toString() {
-            return
-                    "id=" + id +
+            return  "\n id=" + id +
                     ", FirstName='" + FirstName + '\'' +
                     ", LastName='" + LastName + '\'' +
                     ", ContactNo='" + ContactNo + '\'' +
