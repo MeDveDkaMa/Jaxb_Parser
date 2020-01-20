@@ -61,152 +61,152 @@
 
   <xs:simpleType name="Job">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Unemployed"/>
-      <xs:enumeration value="Employed"/>
+<!--      <xs:enumeration value="Unemployed"/>-->
+<!--      <xs:enumeration value="Employed"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="Assessments">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="4.1"/>
-      <xs:enumeration value="3.4"/>
-      <xs:enumeration value="4.3"/>
-      <xs:enumeration value="4.5"/>
+<!--      <xs:enumeration value="4.1"/>-->
+<!--      <xs:enumeration value="3.4"/>-->
+<!--      <xs:enumeration value="4.3"/>-->
+<!--      <xs:enumeration value="4.5"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name = "EmailStudent">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="medaw@gmail.com"/>
-      <xs:enumeration value="bogdan21@yandex.ru"/>
-      <xs:enumeration value="test21@rambler.com"/>
-      <xs:enumeration value="berezinanasta@icloud.com"/>
-      <xs:enumeration value="testa1w@gmail.com"/>
+<!--      <xs:enumeration value="medaw@gmail.com"/>-->
+<!--      <xs:enumeration value="bogdan21@yandex.ru"/>-->
+<!--      <xs:enumeration value="test21@rambler.com"/>-->
+<!--      <xs:enumeration value="berezinanasta@icloud.com"/>-->
+<!--      <xs:enumeration value="testa1w@gmail.com"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="Group">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="PIM-19"/>
-      <xs:enumeration value="VS-19"/>
+<!--      <xs:enumeration value="PIM-19"/>-->
+<!--      <xs:enumeration value="VS-19"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="City">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Rybinsk"/>
-      <xs:enumeration value="Moscow"/>
-      <xs:enumeration value="Yaroslavl"/>
-      <xs:enumeration value="Novgorod"/>
+<!--      <xs:enumeration value="Rybinsk"/>-->
+<!--      <xs:enumeration value="Moscow"/>-->
+<!--      <xs:enumeration value="Yaroslavl"/>-->
+<!--      <xs:enumeration value="Novgorod"/>-->
     </xs:restriction>
   </xs:simpleType>
 
 
   <xs:simpleType name="DepartmentStudent">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="MPOEVS"/>
-      <xs:enumeration value="VS"/>
+<!--      <xs:enumeration value="MPOEVS"/>-->
+<!--      <xs:enumeration value="VS"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="ContactNO">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="+9991234212"/>
-      <xs:enumeration value="+222321234"/>
-      <xs:enumeration value="+999123122"/>
-      <xs:enumeration value="+9321234212"/>
-      <xs:enumeration value="+932234212"/>
+<!--      <xs:enumeration value="+9991234212"/>-->
+<!--      <xs:enumeration value="+222321234"/>-->
+<!--      <xs:enumeration value="+999123122"/>-->
+<!--      <xs:enumeration value="+9321234212"/>-->
+<!--      <xs:enumeration value="+932234212"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="Email">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="rector@rsatu.ru"/>
-      <xs:enumeration value="MPOEVS@rsatu.ru"/>
-      <xs:enumeration value="VS@rsatu.ru"/>
-      <xs:enumeration value="Radio@rsatu.ru"/>
+<!--      <xs:enumeration value="rector@rsatu.ru"/>-->
+<!--      <xs:enumeration value="MPOEVS@rsatu.ru"/>-->
+<!--      <xs:enumeration value="VS@rsatu.ru"/>-->
+<!--      <xs:enumeration value="Radio@rsatu.ru"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="LastName">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Kuznetsov"/>
-      <xs:enumeration value="Petrenko"/>
-      <xs:enumeration value="Yakovlev"/>
-      <xs:enumeration value="Ermakov"/>
+<!--      <xs:enumeration value="Kuznetsov"/>-->
+<!--      <xs:enumeration value="Petrenko"/>-->
+<!--      <xs:enumeration value="Yakovlev"/>-->
+<!--      <xs:enumeration value="Ermakov"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="FirstName">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Bogdan"/>
-      <xs:enumeration value="George"/>
-      <xs:enumeration value="Julius"/>
-      <xs:enumeration value="Philipn"/>
+<!--      <xs:enumeration value="Bogdan"/>-->
+<!--      <xs:enumeration value="George"/>-->
+<!--      <xs:enumeration value="Julius"/>-->
+<!--      <xs:enumeration value="Philipn"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="Department">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="All"/>
-      <xs:enumeration value="MPOEVS"/>
-      <xs:enumeration value="VS"/>
-      <xs:enumeration value="Radio"/>
+<!--      <xs:enumeration value="All"/>-->
+<!--      <xs:enumeration value="MPOEVS"/>-->
+<!--      <xs:enumeration value="VS"/>-->
+<!--      <xs:enumeration value="Radio"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="position">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Rector"/>
-      <xs:enumeration value="Decan"/>
-      <xs:enumeration value="Decan"/>
+<!--      <xs:enumeration value="Rector"/>-->
+<!--      <xs:enumeration value="Decan"/>-->
+<!--      <xs:enumeration value="Decan"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="id">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="1"/>
-      <xs:enumeration value="2"/>
-      <xs:enumeration value="3"/>
-      <xs:enumeration value="4"/>
+<!--      <xs:enumeration value="1"/>-->
+<!--      <xs:enumeration value="2"/>-->
+<!--      <xs:enumeration value="3"/>-->
+<!--      <xs:enumeration value="4"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="Faculty">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="All"/>
-      <xs:enumeration value="FREI"/>
+<!--      <xs:enumeration value="All"/>-->
+<!--      <xs:enumeration value="FREI"/>-->
     </xs:restriction>
   </xs:simpleType>
 
 
   <xs:simpleType name="idStudent">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="5"/>
-      <xs:enumeration value="6"/>
-      <xs:enumeration value="7"/>
-      <xs:enumeration value="8"/>
-      <xs:enumeration value="9"/>
+<!--      <xs:enumeration value="5"/>-->
+<!--      <xs:enumeration value="6"/>-->
+<!--      <xs:enumeration value="7"/>-->
+<!--      <xs:enumeration value="8"/>-->
+<!--      <xs:enumeration value="9"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="FirstNameStudent">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Alexander"/>
-      <xs:enumeration value="Bogdan"/>
-      <xs:enumeration value="Vasily"/>
-      <xs:enumeration value="Nastya"/>
-      <xs:enumeration value="Liza"/>
+<!--      <xs:enumeration value="Alexander"/>-->
+<!--      <xs:enumeration value="Bogdan"/>-->
+<!--      <xs:enumeration value="Vasily"/>-->
+<!--      <xs:enumeration value="Nastya"/>-->
+<!--      <xs:enumeration value="Liza"/>-->
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="LastNameStudent">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Vinogradov"/>
-      <xs:enumeration value="Vasilenko"/>
-      <xs:enumeration value="Sokolov"/>
-      <xs:enumeration value="Berezinav"/>
-      <xs:enumeration value="Shikova"/>
+<!--      <xs:enumeration value="Vinogradov"/>-->
+<!--      <xs:enumeration value="Vasilenko"/>-->
+<!--      <xs:enumeration value="Sokolov"/>-->
+<!--      <xs:enumeration value="Berezinav"/>-->
+<!--      <xs:enumeration value="Shikova"/>-->
     </xs:restriction>
   </xs:simpleType>
 

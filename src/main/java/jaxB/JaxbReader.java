@@ -1,18 +1,17 @@
-package JaxB;
+package jaxB;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
+import jaxB.UniversityType;
+
+import javax.xml.bind.*;
 import java.io.File;
 
 public class JaxbReader {
     public static void main(String[] args) throws JAXBException {
 
-        JAXBContext context = JAXBContext.newInstance(University.class);
+        JAXBContext context = JAXBContext.newInstance(UniversityType.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
         File file = new File("./src/main/resources/university.xml");
-        University university = (University) unmarshaller.unmarshal(file);
+        JAXBElement<UniversityType> university = (JAXBElement<UniversityType>) unmarshaller.unmarshal(file);
         System.out.println(university + "\n\n\n");
 
 
